@@ -55,7 +55,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/UnityProjects/Y-Tron/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
