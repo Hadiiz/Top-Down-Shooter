@@ -5,34 +5,52 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    private const float TELEPORT_TIME = 0.6f;
     public Animator animator;
     public Rigidbody2D rb;
     private float IdleValue;
     private Vector3 movement;
+
+
+
     void Start()
     {
         IdleValue = animator.GetFloat("IdleValue");
+
     }
     void Update()
     {
-
         Animate();
         Move();
     }
 
     private void Animate()
     {
-        movement = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0.0f);
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Magnitude", movement.magnitude);
+        if (animator.GetBool("NewGame") == true)
+        {
+            if (Time.timeSinceLevelLoad > TELEPORT_TIME)
+            {
+                Debug.Log(TELEPORT_TIME);
+                animator.SetBool("NewGame", false);
+            }
+        }
+        else
+        {
 
 
-        SetIdleState();
+            movement = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0.0f);
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+            animator.SetFloat("Magnitude", movement.magnitude);
+
+
+            SetIdleState();
+        }
     }
 
     private void Move()
     {
+
         rb.velocity = new Vector2(movement.x, movement.y);
     }
 
@@ -68,6 +86,7 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("IdleValue", IdleValue);
     }
 }
+
 
 /* private void ProcessInputs() {
 		if (useController) {
