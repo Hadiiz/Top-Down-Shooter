@@ -11,13 +11,14 @@ public class PlayerController : MonoBehaviour
     private float IdleValue;
     private Vector3 movement;
 
+    public float speed;
 
 
     void Start()
     {
         IdleValue = animator.GetFloat("IdleValue");
-
     }
+
     void Update()
     {
         Animate();
@@ -26,19 +27,12 @@ public class PlayerController : MonoBehaviour
 
     private void Animate()
     {
-        if (animator.GetBool("NewGame") == true)
-        {
-            if (Time.timeSinceLevelLoad > TELEPORT_TIME)
-            {
-                Debug.Log(TELEPORT_TIME);
-                animator.SetBool("NewGame", false);
-            }
-        }
-        else
-        {
 
+        StartCoroutine(waitForTp());
 
-            movement = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0.0f);
+        if (animator.GetBool("Teleported") == true)
+        {
+            movement = new Vector3(Input.GetAxisRaw("Horizontal") * speed, Input.GetAxisRaw("Vertical") * speed, 0.0f);
             animator.SetFloat("Horizontal", movement.x);
             animator.SetFloat("Vertical", movement.y);
             animator.SetFloat("Magnitude", movement.magnitude);
@@ -47,6 +41,7 @@ public class PlayerController : MonoBehaviour
             SetIdleState();
         }
     }
+
 
     private void Move()
     {
@@ -85,7 +80,23 @@ public class PlayerController : MonoBehaviour
 
         animator.SetFloat("IdleValue", IdleValue);
     }
+
+    IEnumerator waitForTp()
+    {
+        if (animator.GetBool("NewGame") == true)
+        {
+            yield return new WaitForSeconds(4.6f);
+            animator.SetBool("Teleported", true);
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.6f);
+            animator.SetBool("Teleported", true);
+        }
+    }
 }
+
+
 
 
 /* private void ProcessInputs() {
