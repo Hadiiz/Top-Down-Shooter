@@ -21,8 +21,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
         Animate();
         Move();
+
+
     }
 
     private void Animate()
@@ -40,13 +43,18 @@ public class PlayerController : MonoBehaviour
 
             SetIdleState();
         }
+
     }
 
 
     private void Move()
     {
-
-        rb.velocity = new Vector2(movement.x, movement.y);
+        if (Data.move == true)
+            rb.velocity = new Vector2(movement.x, movement.y);
+        else
+        {
+            rb.velocity = new Vector2(0.0f, 0.0f);
+        }
     }
 
     private void SetIdleState()
