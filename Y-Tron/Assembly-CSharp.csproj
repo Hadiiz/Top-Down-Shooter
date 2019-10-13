@@ -55,14 +55,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\PlayerInLvl.cs" />
+     <Compile Include="Assets\Scripts\Base\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Base\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\Base\NewGamePanel.cs" />
+     <Compile Include="Assets\Scripts\Base\NextLevel\TrainingLvlS.cs" />
+     <Compile Include="Assets\Scripts\Base\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Base\TriggerEvent.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
-     <Compile Include="Assets\Scripts\Dialogue.cs" />
-     <Compile Include="Assets\Scripts\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\NewGamePanel.cs" />
-     <Compile Include="Assets\Scripts\NextLevel\TrainingLvlS.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\TriggerEvent.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />

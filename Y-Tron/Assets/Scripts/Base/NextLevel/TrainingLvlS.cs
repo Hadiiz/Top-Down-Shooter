@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class TrainingLvlS : MonoBehaviour
 {
     private bool playerOnTrigger = false;
@@ -23,7 +23,7 @@ public class TrainingLvlS : MonoBehaviour
         if (playerOnTrigger == true)
             if (Input.GetButtonDown("Fire1"))
             {
-                Debug.Log("Traininglbl");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
     }
 
