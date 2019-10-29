@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3429930938945494249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3429930938945494251}
+  - component: {fileID: 3429930938945494250}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3429930938945494251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429930938945494249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4127808, y: 10.279297, z: 20.710938}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3429930938945494250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3429930938945494249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f337487041b3fb64fa82ad76a8dc48ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTurn: 01000000070000000a0000001200000013000000
+  textDisplay: {fileID: 0}
+  sentences:
+  - Human... I've been expecting your arrival
+  - Who are you? and who am i?
+  - i am BrainX the last human on Earth...
+  - it all happened 3000 years ago
+  - THE UNKNOWN DAY!!!!
+  - During this day all humans perished by an unknown cause
+  - However i remained...
+  - who am i then and how did i get here?
+  - '....'
+  - let me continue my story please...
+  - sure go ahead
+  - 'after the unknown day, 3 Powerfull artifacts poped into existence '
+  - these artifacts can be found from different space and timeline
+  - as i can see you possess one of them, the green gem...
+  - which permits you to travel though time and thats how you're here
+  - you must've lost your memories during your time travel
+  - however you came here for a cause
+  - to collect these artifacts and to prevent the unknown cause
+  - yes... that might be why i'm here
+  - where do i find these artifacts?
+  - i will lead the way, but first...
+  - go to the top level where i can teach you how to fight...
+  typingSpeed: 0.06
+  DialoguePanel: {fileID: 0}
+  continueButton: {fileID: 0}
+  BrainXImg: {fileID: 0}
+  PlayerImg: {fileID: 0}

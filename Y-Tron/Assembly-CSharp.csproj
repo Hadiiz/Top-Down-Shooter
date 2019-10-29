@@ -55,7 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerInLvl.cs" />
+     <Compile Include="Assets\CompanionMovement.cs" />
      <Compile Include="Assets\Scripts\Base\CameraController.cs" />
      <Compile Include="Assets\Scripts\Base\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Base\NewGamePanel.cs" />
@@ -63,6 +63,9 @@
      <Compile Include="Assets\Scripts\Base\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Base\TriggerEvent.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
+     <Compile Include="Assets\Scripts\Level\Crosshairs.cs" />
+     <Compile Include="Assets\Scripts\Level\PlayerInLvl.cs" />
+     <Compile Include="Assets\Scripts\Level\TriggerEventLvl.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

@@ -5,6 +5,7 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+    public int[] playerTurn;
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
     private int index;
@@ -45,6 +46,7 @@ public class Dialogue : MonoBehaviour
         if (index < sentences.Length - 1)
         {
             index++;
+
             textDisplay.text = "";
             setImg();
             StartCoroutine(Type());
@@ -61,7 +63,15 @@ public class Dialogue : MonoBehaviour
 
     public void setImg()
     {
-        if (index == 1 || index == 7 || index == 10 || index == 18 || index == 19)
+        bool found = false;
+        for (int i = 0; i < playerTurn.Length; i++)
+        {
+            if (index == playerTurn[i])
+            {
+                found = true;
+            }
+        }
+        if (found)
         {
             BrainXImg.SetActive(false);
             PlayerImg.SetActive(true);

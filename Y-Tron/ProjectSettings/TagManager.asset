@@ -51,3 +51,6 @@ TagManager:
   - name: BrainX
     uniqueID: 2135548575
     locked: 0
+  - name: Crosshairs
+    uniqueID: 1615997567
+    locked: 0
