@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - TrainingLvl
+  - Companion
+  - Walls
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Walls
   - 
   - 
   - 
@@ -47,6 +50,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1018899865
+    locked: 0
+  - name: Enemy
+    uniqueID: 1115718849
     locked: 0
   - name: BrainX
     uniqueID: 2135548575

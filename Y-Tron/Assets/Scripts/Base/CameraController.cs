@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 
+
     public GameObject player;
     private Vector3 offset;
 
@@ -17,6 +18,18 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.position = player.transform.position + offset;
+        this.transform.position = player.transform.position + offset;
+
+        /*Vector3 roundPos = new Vector3(RoundToNearestPixel(newTransform.x, camera), RoundToNearestPixel(newTransform.y, camera), newTransform.z);
+        transform.position = roundPos;
+        */
     }
+
+    /*public static float RoundToNearestPixel(float unityUnits, Camera viewingCamera)
+    {
+        float valueInPixels = (Screen.height / (viewingCamera.orthographicSize * 2)) * unityUnits;
+        valueInPixels = Mathf.Round(valueInPixels);
+        float adjustedUnityUnits = valueInPixels / (Screen.height / (viewingCamera.orthographicSize * 2));
+        return adjustedUnityUnits;
+    }*/
 }

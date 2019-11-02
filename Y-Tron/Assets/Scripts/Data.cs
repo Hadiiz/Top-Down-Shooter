@@ -16,5 +16,9 @@ public class Data : MonoBehaviour
 
     public static bool lvl3 = false;
 
+    public static float playerHealth = 500;
+
+    public static float playerDamage = 50;
+
 
 }

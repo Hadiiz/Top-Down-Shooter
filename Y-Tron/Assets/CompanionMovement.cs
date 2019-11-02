@@ -7,7 +7,14 @@ public class CompanionMovement : MonoBehaviour
     public GameObject Player;
     public GameObject Crosshair;
     private Vector3 aim;
+
+    public GameObject bulletPrefab;
+
+    public float bulletSpeed;
+
+    public float bulletDestrTime;
     // Start is called before the first frame update
+
     void Start()
     {
 
@@ -16,7 +23,9 @@ public class CompanionMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         RotateArroundPlayer();
+        CheckInput();
     }
 
     void RotateArroundPlayer()
@@ -26,5 +35,17 @@ public class CompanionMovement : MonoBehaviour
         aim = new Vector3(mousePosition.x, mousePosition.y, 0.0f);
         aim.Normalize();
         this.transform.position = Player.transform.position + aim;
+    }
+
+    void CheckInput()
+    {
+        Vector2 shootingDirection = new Vector2(Crosshair.transform.localPosition.x, Crosshair.transform.localPosition.y);
+        shootingDirection.Normalize();
+        if (Input.GetButtonDown("Fire"))
+        {
+            GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+            bullet.GetComponent<Bullet>().velocity = shootingDirection * bulletSpeed;
+            Destroy(bullet, bulletDestrTime);
+        }
     }
 }

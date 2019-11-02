@@ -12,7 +12,14 @@ public class PlayerInLvl : MonoBehaviour
 
     public float speed;
 
+    public int enemiesKilled = 0;
 
+    public HealthBar healthBar;
+
+    private float recoveryTime = 3;
+
+
+    private bool canBeDamaged = true;
     void Start()
     {
         IdleValue = animator.GetFloat("IdleValue");
@@ -94,5 +101,28 @@ public class PlayerInLvl : MonoBehaviour
         yield return new WaitForSeconds(0.6f);
         animator.SetBool("Teleported", true);
 
+    }
+
+    IEnumerator waitForRecovery(float damage, float seconds)
+    {
+
+        healthBar.Damage(damage);
+        GetComponent<PlayerAudio>().PlayHurt();
+        canBeDamaged = false;
+
+        yield return new WaitForSeconds(seconds);
+        canBeDamaged = true;
+
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+
+        if (col.CompareTag("Enemy"))
+        {
+
+            if (canBeDamaged == true)
+                StartCoroutine(waitForRecovery(50f, recoveryTime));
+
+        }
     }
 }
