@@ -55,26 +55,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bullet.cs" />
-     <Compile Include="Assets\CompanionMovement.cs" />
-     <Compile Include="Assets\DemonAudio.cs" />
-     <Compile Include="Assets\DemonData.cs" />
-     <Compile Include="Assets\DemonGFX.cs" />
-     <Compile Include="Assets\HealthBar.cs" />
-     <Compile Include="Assets\OpenPassage.cs" />
-     <Compile Include="Assets\PlayerAudio.cs" />
      <Compile Include="Assets\Scripts\Base\CameraController.cs" />
      <Compile Include="Assets\Scripts\Base\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Base\NewGamePanel.cs" />
      <Compile Include="Assets\Scripts\Base\NextLevel\TrainingLvlS.cs" />
      <Compile Include="Assets\Scripts\Base\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Base\TriggerEvent.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\CompanionMovement.cs" />
      <Compile Include="Assets\Scripts\Data.cs" />
+     <Compile Include="Assets\Scripts\DemonAudio.cs" />
+     <Compile Include="Assets\Scripts\DemonData.cs" />
+     <Compile Include="Assets\Scripts\DemonGFX.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Level\Crosshairs.cs" />
      <Compile Include="Assets\Scripts\Level\PlayerInLvl.cs" />
      <Compile Include="Assets\Scripts\Level\TriggerEventLvl.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
-     <Compile Include="Assets\SpawnDemons.cs" />
+     <Compile Include="Assets\Scripts\OpenPassage.cs" />
+     <Compile Include="Assets\Scripts\PlayerAudio.cs" />
+     <Compile Include="Assets\Scripts\SpawnDemons.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -303,6 +303,9 @@
  <Reference Include="nunit.framework">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/Users/Hadiz/OneDrive/Desktop/Fall2019/BSProject/Y-Tron/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>C:/Users/Hadiz/OneDrive/Desktop/Fall2019/BSProject/Y-Tron/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -311,9 +314,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>C:/Users/Hadiz/OneDrive/Desktop/Fall2019/BSProject/Y-Tron/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/Hadiz/OneDrive/Desktop/Fall2019/BSProject/Y-Tron/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

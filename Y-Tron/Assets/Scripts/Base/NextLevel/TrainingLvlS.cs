@@ -21,10 +21,14 @@ public class TrainingLvlS : MonoBehaviour
     void Update()
     {
         if (playerOnTrigger == true)
-            if (Input.GetButtonDown("Fire1"))
+        {
+            Debug.Log("ez");
+            if (Input.GetButtonDown("Select"))
             {
+                Debug.Log("fire");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)
