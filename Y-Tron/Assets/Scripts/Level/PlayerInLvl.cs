@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class PlayerInLvl : MonoBehaviour
 {
+    public GameObject crosshair;
+    public GameObject companion;
     private const float TELEPORT_TIME = 0.6f;
     public Animator animator;
+
     public Rigidbody2D rb;
     private float IdleValue;
     private Vector3 movement;
@@ -16,30 +19,38 @@ public class PlayerInLvl : MonoBehaviour
 
     public HealthBar healthBar;
 
+    public TpBar tpBar;
+
     private float recoveryTime = 3;
 
 
     private bool canBeDamaged = true;
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     void Start()
     {
         IdleValue = animator.GetFloat("IdleValue");
+
     }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     void Update()
     {
-
         Animate();
         Move();
-
-
+        CheckAbility();
     }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     private void Animate()
     {
+        if (animator.GetBool("Teleported") == false)
+            StartCoroutine(waitForTp());
 
-        StartCoroutine(waitForTp());
-
-        if (animator.GetBool("Teleported") == true)
+        else if (animator.GetBool("Teleported") == true)
         {
             movement = new Vector3(Input.GetAxisRaw("Horizontal") * speed, Input.GetAxisRaw("Vertical") * speed, 0.0f);
             animator.SetFloat("Horizontal", movement.x);
@@ -62,6 +73,8 @@ public class PlayerInLvl : MonoBehaviour
             rb.velocity = new Vector2(0.0f, 0.0f);
         }
     }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     private void SetIdleState()
     {
@@ -95,6 +108,51 @@ public class PlayerInLvl : MonoBehaviour
         animator.SetFloat("IdleValue", IdleValue);
     }
 
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    void CheckAbility()
+    {
+        if (Data.teleport == true)
+            if (Input.GetButtonDown("Ability"))
+            {
+
+                Debug.Log("Starting");
+                tpBar.SetClicked(false);
+                StartCoroutine(tpBar.StartTp());
+                animator.SetBool("Teleport", true);
+                Debug.Log(animator.GetBool("Teleport"));
+                companion.SetActive(false);
+                canBeDamaged = false;
+                StartCoroutine(ReturnBack());
+            }
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    IEnumerator ReturnBack()
+    {
+
+        while (tpBar.getTimeLeft() > 0)
+        {
+            if (Input.GetButtonDown("Fire"))
+            {
+                transform.localPosition = Camera.main.ScreenToWorldPoint(crosshair.transform.position);
+                tpBar.SetClicked(true);
+                break;
+            }
+            yield return null;
+        }
+
+        animator.SetBool("Teleport", false);
+        animator.SetBool("Teleported", false);
+        companion.SetActive(true);
+        canBeDamaged = true;
+
+
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     IEnumerator waitForTp()
     {
 
@@ -114,6 +172,9 @@ public class PlayerInLvl : MonoBehaviour
         canBeDamaged = true;
 
     }
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     void OnTriggerEnter2D(Collider2D col)
     {
 

@@ -10,14 +10,14 @@ public class NewGamePanel : MonoBehaviour
 
     void Start()
     {
-
+        animator.SetBool("NewGamePanel", Data.newGame);
         FadeIn();
     }
 
 
     public void FadeIn()
     {
-        if (animator.GetBool("NewGame") == true)
+        if (Data.newGame == true)
         {
             StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 0));
         }
@@ -47,7 +47,7 @@ public class NewGamePanel : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        animator.SetBool("NewGamePanel", false);
+
     }
 
 }

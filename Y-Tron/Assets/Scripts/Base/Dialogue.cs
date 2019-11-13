@@ -18,6 +18,10 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        if (sentences.Length == 1)
+        {
+            Data.teleport = true;
+        }
         StartCoroutine(Type());
     }
 

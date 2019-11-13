@@ -1,0 +1,797 @@
+fileFormatVersion: 2
+guid: 383bf7525877c0148b742f63769c6310
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5732898294401805532
+    second: AlienBossPassive_0
+  - first:
+      213: -9187011588174661234
+    second: AlienBossPassive_1
+  - first:
+      213: -2776880046997066870
+    second: AlienBossPassive_2
+  - first:
+      213: -5545916003015665367
+    second: AlienBossPassive_3
+  - first:
+      213: -6052340297788398377
+    second: AlienBossPassive_4
+  - first:
+      213: 4205352969415950442
+    second: AlienBossPassive_5
+  - first:
+      213: -4395419415132698152
+    second: AlienBossPassive_6
+  - first:
+      213: -4577331762600335195
+    second: AlienBossPassive_7
+  - first:
+      213: 2068598043373162238
+    second: AlienBossPassive_8
+  - first:
+      213: -7554829363006515630
+    second: AlienBossPassive_9
+  - first:
+      213: -5425649238786987020
+    second: AlienBossPassive_10
+  - first:
+      213: -6475586714915440486
+    second: AlienBossPassive_11
+  - first:
+      213: -8311973082859312591
+    second: AlienBossPassive_12
+  - first:
+      213: 791452359317953544
+    second: AlienBossPassive_13
+  - first:
+      213: 7446980449008054817
+    second: AlienBossPassive_14
+  - first:
+      213: 7790627175056639618
+    second: AlienBossPassive_15
+  - first:
+      213: -9042752439586081823
+    second: AlienBossPassive_16
+  - first:
+      213: -6098307729111879667
+    second: AlienBossPassive_17
+  - first:
+      213: 194247591158156349
+    second: AlienBossPassive_18
+  - first:
+      213: -5791102006890080975
+    second: AlienBossPassive_19
+  - first:
+      213: 6407908386785947904
+    second: AlienBossPassive_20
+  - first:
+      213: 4696953083991433993
+    second: AlienBossPassive_21
+  - first:
+      213: 5763971756735989594
+    second: AlienBossPassive_22
+  - first:
+      213: 3036948032986642405
+    second: AlienBossPassive_23
+  - first:
+      213: -117781501194272369
+    second: AlienBossPassive_24
+  - first:
+      213: 4619381373037542666
+    second: AlienBossPassive_25
+  - first:
+      213: -7214071155092243459
+    second: AlienBossPassive_26
+  - first:
+      213: 7169720663606972607
+    second: AlienBossPassive_27
+  - first:
+      213: 1756078059544689839
+    second: AlienBossPassive_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AlienBossPassive_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5278229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738e5b95ad17dcc428e2baa71fd58f11
+      internalID: -5732898294401805532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5278229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00c5eed6e1c55a49a6073815d189897
+      internalID: -9187011588174661234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5278229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266c6eef071eba2409a937451d719806
+      internalID: -2776880046997066870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5278229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91d86d12ee9cf4d9d2f7ba4b3b2e88
+      internalID: -5545916003015665367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2000
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5278229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992e366559161c247a5e5660ace4afc4
+      internalID: -6052340297788398377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5002125, y: 0.5415173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b3986b4561140438ab0c9d13157e6e
+      internalID: 4205352969415950442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5021689, y: 0.5424954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fc283adb3908245a26775dbe0c0fd3
+      internalID: -4395419415132698152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.50119066, y: 0.5490344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bd1d7114e80c74895dc6e98da63072
+      internalID: -4577331762600335195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011905, y: 0.5490344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e59b19658b12164c90411db060506a2
+      internalID: 2068598043373162238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.50063384, y: 0.5622995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c752966eeeabf745890d621a0590968
+      internalID: -7554829363006515630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5020525, y: 0.55994993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dab6197b4656f40b4c7656c1de4575
+      internalID: -5425649238786987020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5032687, y: 0.5698032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91e4c704715071409cc64334c9268b2
+      internalID: -6475586714915440486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1203
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5633423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05f67d15e3f8c444bf1ecec3521566c
+      internalID: -8311973082859312591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_13
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1199
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.49947417, y: 0.58308655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3707850ec87ffc04f8c5657b0883ceed
+      internalID: 791452359317953544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_14
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1200
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5029077, y: 0.57933015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6d8fa0b577f824b958269aa56b8016
+      internalID: 7446980449008054817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4995659, y: 0.5787113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd03dade3445124bb9fc71fe4ca9c2a
+      internalID: 7790627175056639618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4989415, y: 0.5746375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2679e538a377648bca191be024992e
+      internalID: -9042752439586081823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_17
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 801
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5098294, y: 0.57043517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a894b2009291b294285041f020b23129
+      internalID: -6098307729111879667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5021951, y: 0.56290436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e906e797786e4499c0f692c1d94b62
+      internalID: 194247591158156349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_19
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5613495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fcbb606c88d124ba22db392f9f2b46
+      internalID: -5791102006890080975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.50240713, y: 0.55900455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09ccb9091137d745b40e37f6691460f
+      internalID: 6407908386785947904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.49876708, y: 0.559131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333950ca1ff40df4d88b69c169ea6aa5
+      internalID: 4696953083991433993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011905, y: 0.5494185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b33cb3228ad244bb345ac10e05df86
+      internalID: 5763971756735989594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_23
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 400
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.51181215, y: 0.5474823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f681126a8f76e8a4abf6e7a35b80555e
+      internalID: 3036948032986642405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_24
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 400
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5132538, y: 0.5423048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0791ae64732a4d948b87785f86a2a174
+      internalID: -117781501194272369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5026359, y: 0.54466903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e9675d2a0848e42b9b16a98eff8ec6
+      internalID: 4619381373037542666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.4999507, y: 0.53948385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fee061db21f0db49bead435015c13d9
+      internalID: -7214071155092243459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5018697, y: 0.54304594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc32a058c2b490346978f388ff732582
+      internalID: 7169720663606972607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlienBossPassive_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 400
+      alignment: 9
+      pivot: {x: 0.5011908, y: 0.5327694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616f296046ee5304c977c7f6f483073f
+      internalID: 1756078059544689839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9fb691ca3cb3ee54d967699d32b584ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

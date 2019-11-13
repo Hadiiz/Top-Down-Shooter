@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator waitForTp()
     {
-        if (animator.GetBool("NewGame") == true)
+        if (Data.newGame == true)
         {
             yield return new WaitForSeconds(4.6f);
             animator.SetBool("Teleported", true);
