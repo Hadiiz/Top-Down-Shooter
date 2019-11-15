@@ -26,6 +26,8 @@ public class PlayerInLvl : MonoBehaviour
 
     private bool canBeDamaged = true;
 
+    public Vector2 mousePos;
+
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     void Start()
@@ -38,6 +40,7 @@ public class PlayerInLvl : MonoBehaviour
 
     void Update()
     {
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Animate();
         Move();
         CheckAbility();
@@ -116,11 +119,11 @@ public class PlayerInLvl : MonoBehaviour
             if (Input.GetButtonDown("Ability"))
             {
 
-                Debug.Log("Starting");
+
                 tpBar.SetClicked(false);
                 StartCoroutine(tpBar.StartTp());
                 animator.SetBool("Teleport", true);
-                Debug.Log(animator.GetBool("Teleport"));
+
                 companion.SetActive(false);
                 canBeDamaged = false;
                 StartCoroutine(ReturnBack());
@@ -132,11 +135,30 @@ public class PlayerInLvl : MonoBehaviour
     IEnumerator ReturnBack()
     {
 
+        /* while (tpBar.getTimeLeft() > 0)
+         {
+             if (Input.GetButtonDown("Fire"))
+             {
+                 transform.localPosition = Camera.main.ScreenToWorldPoint(crosshair.transform.position);
+                 tpBar.SetClicked(true);
+                 break;
+             }
+             yield return null;
+         }
+
+         animator.SetBool("Teleport", false);
+         animator.SetBool("Teleported", false);
+         companion.SetActive(true);
+         canBeDamaged = true;
+
+ */
+
+        Debug.Log(mousePos.x + " | " + mousePos.y);
         while (tpBar.getTimeLeft() > 0)
         {
             if (Input.GetButtonDown("Fire"))
             {
-                transform.localPosition = Camera.main.ScreenToWorldPoint(crosshair.transform.position);
+                transform.position = mousePos;
                 tpBar.SetClicked(true);
                 break;
             }
@@ -147,8 +169,6 @@ public class PlayerInLvl : MonoBehaviour
         animator.SetBool("Teleported", false);
         companion.SetActive(true);
         canBeDamaged = true;
-
-
     }
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

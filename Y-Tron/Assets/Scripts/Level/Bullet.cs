@@ -32,6 +32,12 @@ public class Bullet : MonoBehaviour
                 other.GetComponent<DemonData>().health -= damage;
                 break;
             }
+            if (other.CompareTag("AlienBoss"))
+            {
+                Destroy(gameObject);
+                other.GetComponent<AlienBossHealthBar>().Damage(damage);
+                break;
+            }
         }
 
         transform.position = newPosition;

@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AlienBossHealthBar.cs" />
      <Compile Include="Assets\BackToBase.cs" />
      <Compile Include="Assets\RadicalBullet.cs" />
      <Compile Include="Assets\Scripts\Base\CameraController.cs" />

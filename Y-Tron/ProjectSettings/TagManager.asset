@@ -8,6 +8,8 @@ TagManager:
   - Companion
   - Walls
   - Enemy
+  - Boss
+  - AlienBoss
   layers:
   - Default
   - TransparentFX
