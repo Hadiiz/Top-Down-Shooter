@@ -22,11 +22,9 @@ public class TrainingLvlS : MonoBehaviour
     {
         if (playerOnTrigger == true)
         {
-            Debug.Log("ez");
             if (Input.GetButtonDown("Select"))
             {
-                Debug.Log("fire");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                SceneManager.LoadScene("TrainingLvl");
             }
         }
     }

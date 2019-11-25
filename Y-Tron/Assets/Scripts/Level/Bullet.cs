@@ -38,6 +38,12 @@ public class Bullet : MonoBehaviour
                 other.GetComponent<AlienBossHealthBar>().Damage(damage);
                 break;
             }
+            if (other.CompareTag("SkeletonBoss"))
+            {
+                Destroy(gameObject);
+                other.GetComponent<SkeletonBossHealthBar>().Damage(damage);
+                break;
+            }
         }
 
         transform.position = newPosition;

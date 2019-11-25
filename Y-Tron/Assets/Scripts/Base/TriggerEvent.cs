@@ -12,12 +12,11 @@ public class TriggerEvent : MonoBehaviour
 
         if (col.CompareTag("Player"))
         {
-            if (Data.newGame == true)
-            {
-                Data.move = false;
-                Dialogue.SetActive(true);
-                DialogueManager.GetComponent<Dialogue>().StartDialogue();
-            }
+
+            Data.move = false;
+            Dialogue.SetActive(true);
+            DialogueManager.GetComponent<Dialogue>().StartDialogue();
+
         }
     }
     void OnTriggerExit(Collider col)

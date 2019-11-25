@@ -1,0 +1,776 @@
+fileFormatVersion: 2
+guid: eb8f4babdc35fd84dafc08ca7c0ad403
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7183461358894159635
+    second: SkeletonBot_0
+  - first:
+      213: 1769045720138351015
+    second: SkeletonBot_1
+  - first:
+      213: 5839033904786129142
+    second: SkeletonBot_2
+  - first:
+      213: -5796617881152546450
+    second: SkeletonBot_3
+  - first:
+      213: -4991074447430104713
+    second: SkeletonBot_4
+  - first:
+      213: -8816244720367734700
+    second: SkeletonBot_5
+  - first:
+      213: -8649778457597906875
+    second: SkeletonBot_6
+  - first:
+      213: -6340282125708287392
+    second: SkeletonBot_7
+  - first:
+      213: 1865374508791815216
+    second: SkeletonBot_8
+  - first:
+      213: 7789395132195599201
+    second: SkeletonBot_9
+  - first:
+      213: 7274274311007645862
+    second: SkeletonBot_10
+  - first:
+      213: 2818501981894300509
+    second: SkeletonBot_11
+  - first:
+      213: 8286111997818693160
+    second: SkeletonBot_12
+  - first:
+      213: 1926470265697533470
+    second: SkeletonBot_13
+  - first:
+      213: -4313891194574854017
+    second: SkeletonBot_14
+  - first:
+      213: 7606317385482809985
+    second: SkeletonBot_15
+  - first:
+      213: -380854013185721598
+    second: SkeletonBot_16
+  - first:
+      213: 2698874214241747156
+    second: SkeletonBot_17
+  - first:
+      213: -8995505246755045491
+    second: SkeletonBot_18
+  - first:
+      213: -5717238462126387968
+    second: SkeletonBot_19
+  - first:
+      213: -2223830897375928233
+    second: SkeletonBot_20
+  - first:
+      213: 6044695332667091235
+    second: SkeletonBot_21
+  - first:
+      213: -5697925846874582705
+    second: SkeletonBot_22
+  - first:
+      213: 406025785464130907
+    second: SkeletonBot_23
+  - first:
+      213: -7619653441170358621
+    second: SkeletonBot_24
+  - first:
+      213: -6117412688640266768
+    second: SkeletonBoss_0
+  - first:
+      213: -5476821776088252709
+    second: SkeletonBoss_1
+  - first:
+      213: -8975486480440466052
+    second: SkeletonBoss_2
+  - first:
+      213: 8066185491681177256
+    second: SkeletonBoss_3
+  - first:
+      213: 7328116811432279966
+    second: SkeletonBoss_4
+  - first:
+      213: 1375157432488023126
+    second: SkeletonBoss_5
+  - first:
+      213: -8679741432733272491
+    second: SkeletonBoss_6
+  - first:
+      213: -8981105052472337246
+    second: SkeletonBoss_7
+  - first:
+      213: 1842338581738970987
+    second: SkeletonBoss_8
+  - first:
+      213: 7235473212636277691
+    second: SkeletonBoss_9
+  - first:
+      213: -4623778852559849121
+    second: SkeletonBoss_10
+  - first:
+      213: -335004050284968508
+    second: SkeletonBoss_11
+  - first:
+      213: -5370882303701771098
+    second: SkeletonBoss_12
+  - first:
+      213: -8065725469797652681
+    second: SkeletonBoss_13
+  - first:
+      213: -623014067674059059
+    second: SkeletonBoss_14
+  - first:
+      213: -3625091860945053231
+    second: SkeletonBoss_15
+  - first:
+      213: -7167376691798875976
+    second: SkeletonBoss_16
+  - first:
+      213: 7768651916487372389
+    second: SkeletonBoss_17
+  - first:
+      213: 2905043656926237450
+    second: SkeletonBoss_18
+  - first:
+      213: -5024988576360155492
+    second: SkeletonBoss_19
+  - first:
+      213: -8331898126393564468
+    second: SkeletonBoss_20
+  - first:
+      213: 7270949260458971636
+    second: SkeletonBoss_21
+  - first:
+      213: 2110779108647295763
+    second: SkeletonBoss_22
+  - first:
+      213: 7797076204294879895
+    second: SkeletonBoss_23
+  - first:
+      213: -1585120744628970273
+    second: SkeletonBoss_24
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkeletonBoss_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1012
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965c7d83e490d2849baf9bf23b425d54
+      internalID: -6117412688640266768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1012
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c841b7b83023fff499f90812f6d05330
+      internalID: -5476821776088252709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1012
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb74dfbb05d1e84fba8f37b46c4b8e5
+      internalID: -8975486480440466052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1012
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d6f147707814747978f30f438f5732
+      internalID: 8066185491681177256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_4
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1012
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692cb6b2f8ebc5e43b58277a30df0e0a
+      internalID: 7328116811432279966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 772
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffa9389596876048874649fe7ca14a4
+      internalID: 1375157432488023126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 772
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaf6c44819d120438859833d9e5fd2d
+      internalID: -8679741432733272491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_7
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 772
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7546845c206afda41b7ba65d0cbd8604
+      internalID: -8981105052472337246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 772
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6456c81896478a489b4a342ef9106bd
+      internalID: 1842338581738970987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_9
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 772
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c1190f5dc01cd49908bb198b55059b
+      internalID: 7235473212636277691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc7d96cb9c19264594b48c125852ca1
+      internalID: -4623778852559849121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcdaae4c6142754e8589492dee7e3ff
+      internalID: -335004050284968508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c2074f00d67e940835b3742bab5043
+      internalID: -5370882303701771098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96943899c870d0f47b091f329982bf52
+      internalID: -8065725469797652681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_14
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3bfe99e3fdb33489ed3de263a45008
+      internalID: -623014067674059059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ea50c0778274b4bbb472f11629e75d
+      internalID: -3625091860945053231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee25ff305f9fe45a8207be32f4a280
+      internalID: -7167376691798875976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_17
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f075fcbf363c3de47b796cc358703951
+      internalID: 7768651916487372389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a37ee9803a0268439a6bd49dd9caf13
+      internalID: 2905043656926237450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_19
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dfe58c9d5de0a40a0a43e84de50b3f
+      internalID: -5024988576360155492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67931e6d87d446c4b8febd6cedae1784
+      internalID: -8331898126393564468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 52
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8bb88538f20e5499434b73dd93e588
+      internalID: 7270949260458971636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_22
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 52
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6600f2554bd788429d560c21b9d9f77
+      internalID: 2110779108647295763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 52
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25556bce7a1bba4c80dc65575deba60
+      internalID: 7797076204294879895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBoss_24
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 52
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1d43d1a71276743a7176a94cab4773
+      internalID: -1585120744628970273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 18fe8fa40c444934a8e8effe91a5d75b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

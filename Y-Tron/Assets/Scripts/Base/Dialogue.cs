@@ -8,6 +8,11 @@ public class Dialogue : MonoBehaviour
     public int[] playerTurn;
     public TextMeshProUGUI textDisplay;
     public string[] sentences;
+    public string[] sentencesLvl1;
+    public string[] sentencesLvl2;
+
+    private string[] _sentences;
+
     private int index;
     public float typingSpeed;
 
@@ -16,9 +21,29 @@ public class Dialogue : MonoBehaviour
     public GameObject BrainXImg;
     public GameObject PlayerImg;
 
+    void Start()
+    {
+        GetSentences();
+    }
+    public void GetSentences()
+    {
+        if (Data.newGame == true)
+        {
+            _sentences = sentences;
+        }
+        if (Data.lvl1 == true)
+        {
+            _sentences = sentencesLvl1;
+        }
+        if (Data.lvl2 == true)
+        {
+            _sentences = sentencesLvl2;
+        }
+    }
     public void StartDialogue()
     {
-        if (sentences.Length == 1)
+
+        if (_sentences.Length == 1)
         {
             Data.teleport = true;
         }
@@ -27,7 +52,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (textDisplay.text == sentences[index])
+        if (textDisplay.text == _sentences[index])
         {
             continueButton.SetActive(true);
         }
@@ -35,7 +60,7 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator Type()
     {
-        foreach (char letter in sentences[index].ToCharArray())
+        foreach (char letter in _sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
@@ -47,7 +72,7 @@ public class Dialogue : MonoBehaviour
 
         continueButton.SetActive(false);
 
-        if (index < sentences.Length - 1)
+        if (index < _sentences.Length - 1)
         {
             index++;
 
@@ -67,18 +92,28 @@ public class Dialogue : MonoBehaviour
 
     public void setImg()
     {
-        bool found = false;
-        for (int i = 0; i < playerTurn.Length; i++)
+        if (_sentences == sentences)
         {
-            if (index == playerTurn[i])
+            bool found = false;
+            for (int i = 0; i < playerTurn.Length; i++)
             {
-                found = true;
+                if (index == playerTurn[i])
+                {
+                    found = true;
+                }
             }
-        }
-        if (found)
-        {
-            BrainXImg.SetActive(false);
-            PlayerImg.SetActive(true);
+            if (found)
+            {
+                BrainXImg.SetActive(false);
+                PlayerImg.SetActive(true);
+            }
+            else
+            {
+                BrainXImg.SetActive(true);
+                PlayerImg.SetActive(false);
+            }
+
+
         }
         else
         {

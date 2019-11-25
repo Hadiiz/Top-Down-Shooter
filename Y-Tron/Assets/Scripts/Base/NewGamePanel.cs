@@ -47,6 +47,8 @@ public class NewGamePanel : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
+        animator.SetBool("NewGamePanel", false);
+
 
     }
 

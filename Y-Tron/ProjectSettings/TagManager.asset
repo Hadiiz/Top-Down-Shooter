@@ -10,6 +10,9 @@ TagManager:
   - Enemy
   - Boss
   - AlienBoss
+  - BossBulletRed
+  - BossBulletBlue
+  - SkeletonBoss
   layers:
   - Default
   - TransparentFX

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TrainingLvl.unity
     guid: 30b73f665e831f241bac476b48708c39
+  - enabled: 1
+    path: Assets/Scenes/AlienBoss.unity
+    guid: d0b53d552e612e84fa60d9c72fd20332
   m_configObjects: {}

@@ -24,14 +24,17 @@ public class PlayerInLvl : MonoBehaviour
     private float recoveryTime = 3;
 
 
-    private bool canBeDamaged = true;
+    public static bool canBeDamaged = true;
 
     public Vector2 mousePos;
+
+    public GameObject gameOverPanel;
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     void Start()
     {
+        canBeDamaged = true;
         IdleValue = animator.GetFloat("IdleValue");
 
     }
@@ -44,6 +47,7 @@ public class PlayerInLvl : MonoBehaviour
         Animate();
         Move();
         CheckAbility();
+
     }
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -181,7 +185,7 @@ public class PlayerInLvl : MonoBehaviour
 
     }
 
-    IEnumerator waitForRecovery(float damage, float seconds)
+    public IEnumerator DamagePlayer(float damage, float seconds)
     {
 
         healthBar.Damage(damage);
@@ -202,8 +206,32 @@ public class PlayerInLvl : MonoBehaviour
         {
 
             if (canBeDamaged == true)
-                StartCoroutine(waitForRecovery(50f, recoveryTime));
+                StartCoroutine(DamagePlayer(50f, recoveryTime));
+
+        }
+        if (col.CompareTag("BossBulletRed"))
+        {
+
+            if (canBeDamaged == true)
+                StartCoroutine(DamagePlayer(100f, recoveryTime));
+
+
+            Destroy(col.gameObject);
+
+        }
+        if (col.CompareTag("BossBulletBlue"))
+        {
+
+            if (canBeDamaged == true)
+                StartCoroutine(DamagePlayer(200f, recoveryTime));
+            Destroy(col.gameObject);
 
         }
     }
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 }
