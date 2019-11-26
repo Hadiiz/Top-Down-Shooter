@@ -28,7 +28,7 @@ public class Data : MonoBehaviour
     //////////////////////////////////////////////////////////////////////////////////////////
 
     public static float alienBossHealth = 5000;
-    public static float skeletonBossHealth = 10000;
+    public static float skeletonBossHealth = 7000;
 
 
 

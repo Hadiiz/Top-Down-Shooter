@@ -139,9 +139,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efba30e56ac4af741880ad890d7e22c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crosshair: {fileID: 0}
+  companion: {fileID: 0}
   animator: {fileID: 7292365366377521866}
   rb: {fileID: 7292365366377521862}
   speed: 2
+  enemiesKilled: 0
+  healthBar: {fileID: 0}
+  tpBar: {fileID: 0}
+  mousePos: {x: 0, y: 0}
+  gameOverPanel: {fileID: 0}
 --- !u!61 &7292365366377521861
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -277,7 +284,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClips:
-  - {fileID: 8300000, guid: db694fb9538fabb428e5ff9f9989abee, type: 3}
+  - {fileID: 8300000, guid: 687613b86fe22ec4f88cf230107c9760, type: 3}
+  - {fileID: 8300000, guid: 88bcbfd66f931d9469751a68b7b7f673, type: 3}
+  - {fileID: 8300000, guid: 89c2d662c414a5540845ded5a67c0f85, type: 3}
+  - {fileID: 8300000, guid: 074c39e95fed7cf45a4d523e385dc240, type: 3}
+  - {fileID: 8300000, guid: 44cf07dd4fb70254d9a3d20bff9d2a6c, type: 3}
   audioSource: {fileID: 7292365366377521859}
 --- !u!1 &7292365367544883569
 GameObject:
