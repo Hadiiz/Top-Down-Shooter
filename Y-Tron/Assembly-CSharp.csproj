@@ -88,6 +88,9 @@
      <Compile Include="Assets\Scripts\Level\TpBar.cs" />
      <Compile Include="Assets\Scripts\Level\TriggerEventLvl.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
+     <Compile Include="Assets\SubtitleTrackExample\SubtitleData.cs" />
+     <Compile Include="Assets\SubtitleTrackExample\SubtitleMixer.cs" />
+     <Compile Include="Assets\SubtitleTrackExample\SubtitleTrack.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
