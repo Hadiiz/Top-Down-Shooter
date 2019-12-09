@@ -28,7 +28,7 @@ public class Lvl2 : MonoBehaviour
         {
             if (Input.GetButtonDown("Select"))
             {
-                SceneManager.LoadScene("AlienBoss");
+                SceneManager.LoadScene("SkeletonBoss");
             }
         }
     }

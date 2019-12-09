@@ -7,7 +7,7 @@ public class SkeletonBossHealthBar : MonoBehaviour
     private float maxHealth = Data.skeletonBossHealth;
     public static float health;
     public GameObject HealthBar;
-
+    public Animator animator;
 
     public GameObject backToBase;
     void Start()
@@ -19,7 +19,7 @@ public class SkeletonBossHealthBar : MonoBehaviour
     void Update()
     {
         HealthBar.transform.localScale = new Vector3(GetHealthPercent(), 1);
-        // CheckForDeath();
+        CheckForDeath();
     }
 
     public float GetHealth()
@@ -44,13 +44,13 @@ public class SkeletonBossHealthBar : MonoBehaviour
         if (health > maxHealth) health = maxHealth;
     }
 
-    /* void CheckForDeath()
-     {
-         if (GetHealth() <= 0f)
-         {
-             animator.SetBool("Dead", true);
-             backToBase.SetActive(true);
+    void CheckForDeath()
+    {
+        if (GetHealth() <= 0f)
+        {
+            animator.SetBool("Dead", true);
+            backToBase.SetActive(true);
 
-         }
-     }*/
+        }
+    }
 }

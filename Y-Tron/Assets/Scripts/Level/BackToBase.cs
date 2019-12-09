@@ -26,7 +26,7 @@ public class BackToBase : MonoBehaviour
             if (Input.GetButtonDown("Select"))
             {
                 CheckScene();
-                SceneManager.LoadScene("Base");
+                SceneManager.LoadScene(GetNextScene());
             }
         }
     }
@@ -50,5 +50,24 @@ public class BackToBase : MonoBehaviour
         {
             Data.lvl2 = true;
         }
+    }
+
+    private string GetNextScene()
+    {
+        string nextScene = "";
+        if (SceneManager.GetActiveScene().name == "TrainingLvl")
+        {
+            nextScene = "Base";
+        }
+        else if (SceneManager.GetActiveScene().name == "AlienBoss")
+        {
+            nextScene = "CutScene";
+        }
+        else if (SceneManager.GetActiveScene().name == "SkeletonBoss")
+        {
+            nextScene = "FinalCutscene";
+        }
+
+        return nextScene;
     }
 }

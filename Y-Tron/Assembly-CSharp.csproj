@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SceneChanger.cs" />
      <Compile Include="Assets\Scripts\Base\CameraController.cs" />
      <Compile Include="Assets\Scripts\Base\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Base\NewGamePanel.cs" />

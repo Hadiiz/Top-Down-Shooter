@@ -85,13 +85,6 @@ public class SkeletonShootingManager : MonoBehaviour
         */
     }
 
-    public void LaserGunShoot()
-    {
-        /*
-        radicalBullet.SpawnProjectile(50, leftGun.transform.position, 7f);
-        radicalBullet.SpawnProjectile(50, RightGun.transform.position, 7f);
-        */
-    }
 
     public void CheckState()
     {

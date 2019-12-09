@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 957513643}
   - component: {fileID: 957513642}
   - component: {fileID: 957513644}
+  - component: {fileID: 957513645}
   m_Layer: 0
   m_Name: TimelineManager
   m_TagString: Untagged
@@ -450,6 +451,8 @@ PlayableDirector:
   - key: {fileID: 1674777202271789978, guid: 7ac6ddf9377b80645a930dca99520a28, type: 2}
     value: {fileID: 818955314}
   - key: {fileID: -6564704164240713390, guid: 7ac6ddf9377b80645a930dca99520a28, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -2379162277079799236, guid: 7ac6ddf9377b80645a930dca99520a28, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
@@ -563,6 +566,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &957513645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957513641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e17708fb5b24014da96e875f754527f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &966036070
 GameObject:
   m_ObjectHideFlags: 0

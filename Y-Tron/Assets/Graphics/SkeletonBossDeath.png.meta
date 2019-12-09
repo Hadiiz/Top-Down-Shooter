@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 380ad74cf9013e343bd0db590eeb3973
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 651934051621208922
+    second: SkeletonBossDeath_0
+  - first:
+      213: -884687477203412864
+    second: SkeletonBossDeath_1
+  - first:
+      213: -435036345380666767
+    second: SkeletonBossDeath_2
+  - first:
+      213: 7942158840118000186
+    second: SkeletonBossDeath_3
+  - first:
+      213: 360421766874295656
+    second: SkeletonBossDeath_4
+  - first:
+      213: 3799896394052094917
+    second: SkeletonBossDeath_5
+  - first:
+      213: 1444893502664357884
+    second: SkeletonBossDeath_6
+  - first:
+      213: 4870755212667712832
+    second: SkeletonBossDeath_7
+  - first:
+      213: 2311526617463530665
+    second: SkeletonBossDeath_8
+  - first:
+      213: 8578874971886214084
+    second: SkeletonBossDeath_9
+  - first:
+      213: -8528133057849176834
+    second: SkeletonBossDeath_10
+  - first:
+      213: -8658283432189876447
+    second: SkeletonBossDeath_11
+  - first:
+      213: 5935815825064269811
+    second: SkeletonBossDeath_12
+  - first:
+      213: 7552885575660073799
+    second: SkeletonBossDeath_13
+  - first:
+      213: 4803975430478549060
+    second: SkeletonBossDeath_14
+  - first:
+      213: 1652557097069446008
+    second: SkeletonBossDeath_15
+  - first:
+      213: 3980122782813745367
+    second: SkeletonBossDeath_16
+  - first:
+      213: -728683215791748102
+    second: SkeletonBossDeath_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkeletonBossDeath_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 772
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2831856866381542910924984337172
+      internalID: 651934051621208922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 764
+        width: 120
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07ad1f6059cda04eb94dc9e3f109a9f
+      internalID: -884687477203412864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 756
+        width: 120
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb1f8d6d558b144b1e3602a71faad1
+      internalID: -435036345380666767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 755
+        width: 120
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07eec9bdddf3b74b8267676e83f1605
+      internalID: 360421766874295656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 764
+        width: 120
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8a81c0d6730f74aabc4d0063223773
+      internalID: 1444893502664357884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 120
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d14c48cf56b3c541a099db03bb4ff0f
+      internalID: 4870755212667712832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7a5b3f1cb3be64db4c57156a15fd51
+      internalID: 2311526617463530665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b345a524795c849886777dbd10bca5
+      internalID: 8578874971886214084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbef6b9392700ac4080e00113f6a4334
+      internalID: -8528133057849176834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_11
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 532
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367e3c2543f1d3e48b4730ff109a4c80
+      internalID: -8658283432189876447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e938d7116da179419ce0c7f00416591
+      internalID: 5935815825064269811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f4a5d2a7412214b8674d554fd096c4
+      internalID: 7552885575660073799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_14
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dab0783f82fe04088dcfb86298924f
+      internalID: 4803975430478549060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c50c16b7d44bd48b67e6165b339920
+      internalID: 1652557097069446008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_16
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 292
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115b7aeb11b7cd1458702484153f5d1a
+      internalID: 3980122782813745367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossDeath_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 120
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6b112e576598e4d9f71c8ecf4cb423
+      internalID: -728683215791748102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7ee5fa8ec54666b4ea1e5b341bc36262
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
