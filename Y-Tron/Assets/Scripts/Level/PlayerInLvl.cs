@@ -34,6 +34,7 @@ public class PlayerInLvl : MonoBehaviour
 
     void Start()
     {
+
         canBeDamaged = true;
         IdleValue = animator.GetFloat("IdleValue");
 

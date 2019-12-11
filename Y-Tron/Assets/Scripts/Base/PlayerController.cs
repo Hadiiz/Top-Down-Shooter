@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        // Data.Load();
         IdleValue = animator.GetFloat("IdleValue");
     }
 

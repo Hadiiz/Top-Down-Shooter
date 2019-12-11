@@ -50,6 +50,8 @@ public class BackToBase : MonoBehaviour
         {
             Data.lvl2 = true;
         }
+
+        SaveSystem.SaveData();
     }
 
     private string GetNextScene()
